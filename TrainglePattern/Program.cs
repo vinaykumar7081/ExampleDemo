@@ -7,10 +7,10 @@ class TrainglePattern
     {
         for (int i = 1; i <= 5; i++)
         {
-            int A = 65;
+            int a = 95;
             for (int j = 1; j <= i; j++)
             {
-                Console.Write((char)A++);
+                Console.Write((char) a++);
             }
             Console.WriteLine(" ");
         }
