@@ -6,11 +6,12 @@ namespace SelfStudy
         public static void Main(String[] args)
         {
             Console.WriteLine("Entre Name");
-            string firstName=Console.ReadLine();
+            int  myNum=Convert.ToInt32(Console.ReadLine());
             string lastName=Console.ReadLine();
-            string fullName=firstName+" "+lastName;
-            Console.WriteLine(fullName);
+            //string fullName=firstName+" "+lastName;
+            
+            Console.WriteLine(myNum);
         }
     
-    }
+    }// it not working
 }
